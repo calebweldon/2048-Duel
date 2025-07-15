@@ -26,9 +26,8 @@
 
 <div align="center">
   <img src="https://github.com/calebweldon/2048-Duel/assets/132513904/b6acd17a-cbf9-4b47-ba6d-018ff5dc9b82" alt="Logo" width="800" height="800">
+  <p>2048 Duel is a multiplayer adaptation of the popular game 2048 made using C++. Grab a friend and a computer and start playing!</p>
 </div>
-
-2048 Duel is a multiplayer adaptation of the popular game 2048 made using C++. Grab a friend and a computer and start playing!
 
 
 
