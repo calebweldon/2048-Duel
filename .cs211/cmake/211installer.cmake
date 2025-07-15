@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 3.10)
 
 function(add_installer name)
     cmake_parse_arguments(pa "NO_RESOURCES" "TARGET" "RESOURCES" ${ARGN})

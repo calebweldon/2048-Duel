@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 3.10)
 project(Catch2
         VERSION 2020.2.0
         DESCRIPTION "A reusable main for Catch2"

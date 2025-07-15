@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 3.10)
 project(Test_dot_cs211 CXX)
 
 set(DOT_CS211 "${PROJECT_SOURCE_DIR}/..")
