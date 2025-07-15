@@ -34,7 +34,7 @@
 
 <!-- BUILT WITH -->
 ### Built With
-* [![C++][C++-badge]][C++-url]
+[![C++][C++-badge]][C++-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
