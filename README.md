@@ -46,43 +46,46 @@ Follow the steps below to set up and run the project locally on your machine.
 
 ### Prerequisites
 
-* CMake
-  > ⚠️ **Note:** This project requires version 3.10 or higher. 
-  ```sh
-  pip install cmake
-  ```
+* CMake  
+  > ⚠️ **Note:** Requires CMake version 3.10 or higher.  
+  > Install via pip:  
+  > ```sh
+  > pip install cmake
+  > ```
 
-* C++ Compiler 
-  > ⚠️ **Note:** This project requires a compiler that supports **C++17**.
-  > You can check your compiler version with:
+* C++ Compiler  
+  > ⚠️ **Note:** Requires a compiler that supports **C++17**.  
+  > Check your version with:  
   > ```sh
   > g++ --version   # or clang++ --version
-  > ```
-  > If you don’t have a compiler installed or need to upgrade:
-  > - On **macOS**:  
-  >   ```sh
-  >   brew install gcc
-  >   ```
-  > - On **Ubuntu/Linux**:  
-  >   ```sh
-  >   sudo apt update && sudo apt install g++
-  >   ```
+  > ```  
+  > If needed, install one with:  
+  > - **macOS**: `brew install gcc`  
+  > - **Ubuntu/Linux**: `sudo apt update && sudo apt install g++`
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repository:
+
    ```sh
    git clone https://github.com/calebweldon/2048-Duel
+   cd 2048-Duel
    ```
-2. Set up build directory
+
+2. Set up the build directory:
+
    ```sh
    cmake -S . -B build
    ```
-3. Build the project
+
+3. Build the project:
+
    ```sh
    cmake --build build
    ```
-4. Run the game
+
+4. Run the game:
+
    ```sh
    ./build/game
    ```
